@@ -1,0 +1,26 @@
+<div class="container" style="width: 50%;">
+    <form (ngSubmit)="editar(form)" #form="ngForm">
+        Ingrese id:
+        <input type="text" class="form-control" name="id" [(ngModel)]=id>
+
+        Ingrese nombreProducto:
+        <input type="text" class="form-control" name="nombreproducto" [(ngModel)]=nombreproducto>
+
+        Ingrese Codigo:
+        <input type="text" class="form-control" name="codigo" [(ngModel)]=codigo>
+
+        Ingrese Precio:
+        <input type="text" class="form-control" name="precio" [(ngModel)]=precio>
+
+        Ingrese imagen:
+        <input type="text" class="form-control" name="imagen" [(ngModel)]=imagen>
+
+        Ingrese descripcion:
+        <input type="text" class="form-control" name="descripcion" [(ngModel)]=descripcion>
+
+
+        <button type="submit" class="btn btn-primary">Editar</button>
+    </form>
+  
+</div>
+

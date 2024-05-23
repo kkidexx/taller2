@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-abstracto-ondulado-colorido_23-2148458033.jpg?size=626&ext=jpg&ga=GA1.1.44546679.1716249600&semt=ais_user');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura del cuerpo al 100% del viewport height */
+    margin: 0; /* Elimina los márgenes predeterminados */
+}
+
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

@@ -1,40 +1,32 @@
 {
-    "productos": [
-      {
-        "id": "1",
-        "nombreproducto": "PS5",
-        "codigo": 100,
-        "precio": "$500",
-        "imagen": "https://elbosque.com.ec/multijuegos/wp-content/uploads/sites/59/2021/07/BLUE-BKRND-PS5.png"
-      },
-      {
-        "id": "2",
-        "nombreproducto": "infinix note 40 pro",
-        "codigo": 200,
-        "precio": "$250",
-        "imagen": "https://http2.mlstatic.com/D_NQ_NP_985070-MLA75524467492_042024-O.webp"
-      },
-      {
-        "id": "3",
-        "nombreproducto": "PC GAMER",
-        "codigo": 300,
-        "precio": "$1700",
-        "imagen": "https://todo-virtual.com/wp-content/uploads/2022/10/pc-gamer-ryzen-5-gtx-1660-ti-todo-virtual-ecuador.jpg.webp"
-      },
-      {
-        "id": "4",
-        "nombreproducto": "smart tv led 55 4k",
-        "codigo": 400,
-        "precio": "$700",
-        "imagen": "https://www.kissu.com.ec/imagenes//productos/md/17009537000.jpg"
-      },
-      {
-        "id": "5",
-        "nombreproducto": "LAPTO GAMER",
-        "codigo": 500,
-        "precio": "$2506",
-        "imagen": "https://maxitec.vteximg.com.br/arquivos/ids/197095-1000-1000/maxitec-acer-laptop-gaming-acer-nitro-core-i5-an515-55-506k-1.jpg?v=638304405856500000"
-      }
-    
-    ]
-  }
+  "productos": [
+    {
+      "id": "2",
+      "nombreproducto": "infinix note 40 pro",
+      "codigo": "300",
+      "precio": "$250",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_985070-MLA75524467492_042024-O.webp"
+    },
+    {
+      "id": "3",
+      "nombreproducto": "PC GAMER",
+      "codigo": 300,
+      "precio": "$1700",
+      "imagen": "https://todo-virtual.com/wp-content/uploads/2022/10/pc-gamer-ryzen-5-gtx-1660-ti-todo-virtual-ecuador.jpg.webp"
+    },
+    {
+      "id": "4",
+      "nombreproducto": "smart tv led 55 4k",
+      "codigo": 400,
+      "precio": "$700",
+      "imagen": "https://www.kissu.com.ec/imagenes//productos/md/17009537000.jpg"
+    },
+    {
+      "id": "5",
+      "nombreproducto": "LAPTO GAMER",
+      "codigo": 500,
+      "precio": "$2506",
+      "imagen": "https://maxitec.vteximg.com.br/arquivos/ids/197095-1000-1000/maxitec-acer-laptop-gaming-acer-nitro-core-i5-an515-55-506k-1.jpg?v=638304405856500000"
+    }
+  ]
+}

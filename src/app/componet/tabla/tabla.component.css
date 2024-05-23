@@ -1,0 +1,37 @@
+/* Estilos para la tabla */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2; /* Color de fondo para filas impares */
+  }
+  
+  /* Estilos para los botones */
+  .btn {
+    margin-right: 5px; /* Espacio entre botones */
+  }
+  .btn-warning {
+    background-color: #ffc107; /* Color de fondo para botón Editar */
+    border-color: #ffc107; /* Color de borde para botón Editar */
+    color: #212529; /* Color de texto para botón Editar */
+  }
+  .btn-danger {
+    background-color: #dc3545; /* Color de fondo para botón Eliminar */
+    border-color: #dc3545; /* Color de borde para botón Eliminar */
+    color: #fff; /* Color de texto para botón Eliminar */
+  }
+  .btn-danger:hover,
+  .btn-warning:hover {
+    opacity: 0.9; /* Cambiar opacidad al pasar el ratón */
+  }
+  .carrito {
+    border: 1px solid #ccc; /* Borde sólido de color gris */
+    padding: 10px; /* Espacio alrededor del contenido del carrito */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  .producto-carrito {
+    margin-bottom: 10px; /* Espacio entre productos en el carrito */
+  }
+  
+
+  
+  
+  

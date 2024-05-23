@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+    overflow: hidden; /* Evita que el contenido sobresalga de la mitad superior */
+}
+
+.half-background {
+    background-image: url('https://img.freepik.com/fotos-premium/imagenes-fondo-abstracto-fondo-pantalla-ai-generado_643360-53257.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%; /* Ajusta la altura para que cubra solo la mitad de la página */
+    z-index: -1; /* Envía la imagen de fondo detrás del contenido */
+}
+
+h2 {
+    color: #333333;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555555;
+}
+
+p strong {
+    color: #007bff;
+}

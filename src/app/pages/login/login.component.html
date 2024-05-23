@@ -1,34 +1,23 @@
+<body>
 <div class="container">
-    <h1>LOGIN</h1>
-    <form (ngSubmit)="login(formulario)" #formulario="ngForm">
-        <label for="username" class="form-label">Email:</label>
-        <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">{{'📧'}}</span>
-            <input type="text" class="form-control" placeholder="Username" name="email" [(ngModel)]="email" >
-        </div>
-
-        
-        <label for="pwd" class="form-label">Password:</label>
-<div class="input-group mb-3">
-  <span class="input-group-text" id="basic-addon1">{{'🔑'}}</span>
-  <input 
-    type="{{ mostrarPassword ? 'text' : 'password' }}" 
-    class="form-control" 
-    placeholder="Password" 
-    name="password"  
-    [(ngModel)]="password">
-  <button 
-    type="button" 
-    class="btn btn-secondary" 
-    (click)="alternarVisibilidadPassword()">
-    {{ mostrarPassword ? '&#128275;' : '&#128274;' }}
-  </button>
-</div>
-
+  <h1>LOGIN</h1>
+  <form (ngSubmit)="login(formulario)" #formulario="ngForm">
+      <label for="username" class="form-label">Email:</label>
+      <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">{{'📧'}}</span>
+          <input type="text" class="form-control" placeholder="Username" name="email" [(ngModel)]="email">
+      </div>
       
-        <button type="submit" class="btn btn-primary">Submit</button>
-
-
-    
-      </form>
+      <label for="pwd" class="form-label">Password:</label>
+      <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">{{'🔑'}}</span>
+          <input type="{{ mostrarPassword ? 'text' : 'password' }}" class="form-control" placeholder="Password" name="password" [(ngModel)]="password">
+          <button type="button" class="btn btn-secondary" (click)="alternarVisibilidadPassword()">
+              {{ mostrarPassword ? '&#128275;' : '&#128274;' }}
+          </button>
+      </div>
+      
+      <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
 </div>
+</body>
